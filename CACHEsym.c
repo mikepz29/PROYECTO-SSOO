@@ -12,7 +12,7 @@ typedef struct T_LINEA_CACHE{
 }T_LINEA_CACHE;
 
 
-//Inicio las funciones que voy a utilizar
+//Inicio las funciones que voy a utilizar en el programa
 void inicioCache(T_LINEA_CACHE* T_LINEA_CACHE);
 void aperturaFicheroRAM(T_LINEA_CACHE* T_LINEA_CACHE);
 int lecturaFicheroMemorias(int direccion_binario);
