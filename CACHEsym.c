@@ -65,10 +65,10 @@ void aperturaFicheroRAM(T_LINEA_CACHE* T_LINEA_CACHE){
 		exit( -1 );
 	}
 	
-	unsigned char ram[1024]; 						//Declaro el array en el que guardaré el contenido del fichero RAM.bin
+	unsigned char ram[1024]; 						//Declaro el array en el que guardarÃ© el contenido del fichero RAM.bin
 	ram[1024] = getc(fichero_ram);	
 	//printf("Contenido del fichero:\n");
-	while (feof(fichero_ram) == 0) { 				//Comprobación de fin de fichero. Si esta en 0 (no ha acabado), sigue leyendo 
+	while (feof(fichero_ram) == 0) { 				//ComprobaciÃ³n de fin de fichero. Si esta en 0 (no ha acabado), sigue leyendo 
 		//printf( "%c", ram[1024]);			    	//Imprime el contenido del fichero
 		ram[1024] = getc(fichero_ram); 			    //ram = contenido del fichero
 	}	
